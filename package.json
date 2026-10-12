@@ -1,0 +1,9 @@
+{
+  "name": "madud-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": { "start": "node server/index.js", "test": "node test/simulate.js" },
+  "dependencies": { "express": "^4.19.2", "qrcode": "^1.5.4", "socket.io": "^4.7.5" },
+  "devDependencies": { "socket.io-client": "^4.7.5" }
+}
